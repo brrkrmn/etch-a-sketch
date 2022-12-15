@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 260px;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box {
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slideContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    width: 400px;
+}
+
+.square {
+    border-style: solid;
+    border-width: 1px;
+}
